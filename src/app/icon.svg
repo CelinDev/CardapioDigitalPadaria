@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <rect width="64" height="64" rx="14" fill="#B96F78" />
+  <rect x="3" y="3" width="58" height="58" rx="11" fill="#713F45" stroke="#E8B75F" stroke-width="2" />
+  <!-- Chapéu de confeiteiro -->
+  <path
+    d="M21 26 C17 24, 18 17, 24 16 C25 11, 30 9, 32 11 C34 9, 39 11, 40 16 C46 17, 47 24, 43 26 Z"
+    fill="#FFF8F0"
+    stroke="#E8B75F"
+    stroke-width="1.6"
+  />
+  <rect x="22" y="25" width="20" height="4" rx="1.5" fill="#E8B75F" />
+  <!-- Iniciais MF -->
+  <text
+    x="32"
+    y="50"
+    text-anchor="middle"
+    fill="#FFF8F0"
+    font-family="Georgia, serif"
+    font-size="22"
+    font-weight="bold"
+    font-style="italic"
+  >
+    MF
+  </text>
+</svg>
+
