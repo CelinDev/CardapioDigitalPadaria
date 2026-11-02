@@ -16,9 +16,11 @@ export default function Footer() {
             {BAKERY_INFO.name} — {BAKERY_INFO.subtitle}
           </p>
 
-          <p className="mt-1 font-serif italic text-sm text-[#E8B75F]">
-            &ldquo;{BAKERY_INFO.slogan}&rdquo;
-          </p>
+          {BAKERY_INFO.slogan && (
+            <p className="mt-1 font-serif italic text-sm text-[#E8B75F]">
+              &ldquo;{BAKERY_INFO.slogan}&rdquo;
+            </p>
+          )}
 
           <div className="mt-4 flex flex-wrap items-center justify-center gap-4 text-xs sm:text-sm text-[#FFF8F0]/90">
             <span className="inline-flex items-center gap-1.5">

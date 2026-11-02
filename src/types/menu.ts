@@ -52,6 +52,7 @@ export interface BakeryInfo {
   name: string;
   subtitle: string;
   menuTitle: string;
+  slogan?: string;
   address: {
     street: string;
     city: string;
